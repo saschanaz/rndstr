@@ -80,8 +80,4 @@ function rndstr(x?: any, y?: any, z?: any): string {
 	}
 }
 
-Object.defineProperty(rndstr, "default", { value: rndstr });
-
-module.exports = rndstr;
-
 export default rndstr;
